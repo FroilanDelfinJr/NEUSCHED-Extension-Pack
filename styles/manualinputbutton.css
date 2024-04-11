@@ -1,0 +1,32 @@
+button {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease;
+    vertical-align: middle;
+}
+
+button.generate {
+    width: 100%;
+    border: 1px solid #008000;
+    background: #008000;
+    color: white;
+}
+
+button.generate:hover {
+    background: #004a00;
+    color: hsl(210, 40%, 98%);
+}
+
+button.import {
+    width: 100%;
+    border: 1px solid #0096FF;
+    color: #0096FF;
+}
+
+button.import:hover {
+    background: #0096FF;
+    color: hsl(210, 40%, 98%);
+}
